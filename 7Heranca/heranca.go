@@ -29,3 +29,6 @@ func main() {
 	e1 := estudante{p1, "ADS", "unip"}
 	fmt.Println(e1.nome) // Acesso ao campo "nome" da estrutura incorporada "pessoa"
 }
+
+//Neste código, é utilizado o conceito de incorporação de estrutura (pessoa é incorporada em estudante).
+//Isso permite que estudante herde os campos e métodos de pessoa

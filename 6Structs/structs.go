@@ -43,3 +43,7 @@ func main() {
 	usuario3 := usuario{idade: 24}
 	fmt.Println(usuario3)
 }
+
+//Esse código trabalha com a definição e utilização de estruturas em Go.
+//Ele define duas estruturas (endereco e usuario) e demonstra como criar e manipular instâncias dessas estruturas,
+//bem como imprimir informações relevantes sobre elas

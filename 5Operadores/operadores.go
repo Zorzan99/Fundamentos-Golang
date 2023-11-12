@@ -67,3 +67,7 @@ func main() {
 	}
 	fmt.Println(texto)
 }
+
+//Esse código apresenta operações aritméticas,
+//operadores de atribuição, operadores relacionais,
+//operadores lógicos e operadores unários.
