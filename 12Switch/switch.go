@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// Função que retorna o dia da semana com base no número passado como parâmetro
 func diaDaSemana(numero int) string {
 	switch numero {
 	case 1:
@@ -17,13 +18,13 @@ func diaDaSemana(numero int) string {
 	case 6:
 		return "Sexta-feira"
 	case 7:
-		return "Sabado"
+		return "Sábado"
 	default:
-		return "Numero inválido"
+		return "Número inválido"
 	}
-
 }
 
+// Função equivalente à anterior, mas usando switch sem expressão
 func diaDaSemana2(numero int) string {
 	switch {
 	case numero == 1:
@@ -41,10 +42,11 @@ func diaDaSemana2(numero int) string {
 	case numero == 7:
 		return "Sábado"
 	default:
-		return "Numero Inválido"
-
+		return "Número inválido"
 	}
 }
+
+// Função equivalente às anteriores, mas usando variável intermediária para armazenar o dia da semana
 func diaDaSemana3(numero int) string {
 	var diaDaSemana string
 	switch {
@@ -63,14 +65,15 @@ func diaDaSemana3(numero int) string {
 	case numero == 7:
 		diaDaSemana = "Sábado"
 	default:
-		return "Numero Inválido"
-
+		return "Número inválido"
 	}
 	return diaDaSemana
 }
 
 func main() {
 	fmt.Println("Switch")
+
+	// Chamadas das funções e impressão dos resultados
 	dia := diaDaSemana(7)
 	fmt.Println(dia)
 
@@ -79,5 +82,7 @@ func main() {
 
 	dia3 := diaDaSemana3(10)
 	fmt.Println(dia3)
-
 }
+
+//Neste código, são utilizadas três abordagens diferentes para implementar uma função que retorna o dia da semana com base em um número passado como parâmetro.
+// As funções utilizam a estrutura de controle switch de maneiras ligeiramente diferentes, e os comentários explicam cada abordagem.
