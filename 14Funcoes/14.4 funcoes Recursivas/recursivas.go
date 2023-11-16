@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("Funções Recursivas")
 
 	// Posição desejada na sequência de Fibonacci
-	posicao := uint(12)
+	posicao := uint(30)
 
 	// Loop para imprimir os números Fibonacci até a posição desejada
 	for i := uint(1); i <= posicao; i++ {
