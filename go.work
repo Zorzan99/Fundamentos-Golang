@@ -4,4 +4,5 @@ use (
 	"./17 - Aplicacao de linha de comando"
 	"./19 - Testes Automatizados/1- Introducao"
 	"./19 - Testes Automatizados/2 - Teste Avancado"
+	"./23 - Banco de Dados"
 )
